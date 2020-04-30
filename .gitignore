@@ -1,0 +1,10 @@
+tools\*
+includes\ti84pce.inc
+ti84pce.inc
+*.8xp
+*.lst
+spasm64.exe
+spasm.exe
+*.bat
+*.exe
+build.bat
