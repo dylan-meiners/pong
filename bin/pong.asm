@@ -4,7 +4,10 @@
    .org userMem-2
    .db tExtTok, tAsm84CeCmp
 
-    call start
+    di
+    call _RunIndicOff
+    call _ClrScrnFull
+
     call setup8bpp
     call setPalette
     call clearScreen
