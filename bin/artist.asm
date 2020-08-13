@@ -23,12 +23,6 @@ clearScreen:
     ldir
     ret
 
-drawPaddles:
-    ld hl, sPaddle
-    ld bc, 50 * lcdWidth + 50
-    call drawSprite
-    ret
-
 ;will break if tries to draw outside of screen bounds
 ;hl = sprite
 ;bc = vRam offset
